@@ -32,7 +32,7 @@ apis:
   tags: Types
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-deprecatethingtype-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-describethingtype-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
