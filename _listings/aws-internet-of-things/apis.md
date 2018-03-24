@@ -18,8 +18,8 @@ tags:
 - Internet of Things
 - Devices
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -32,7 +32,7 @@ apis:
   tags: Types
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-listthingtypes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-createthingtype-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
