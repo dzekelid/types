@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Internet of Things API
+  title: AWS Internet of Things API List Thing Types
   version: 1.0.0
+  description: Lists the existing thing types.
 schemes:
 - http
 produces:
