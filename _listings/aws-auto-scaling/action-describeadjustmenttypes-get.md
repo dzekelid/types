@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Describe Adjustment Types
   version: 1.0.0
+  description: Describes the policy adjustment types for use with.
 schemes:
 - http
 produces:
