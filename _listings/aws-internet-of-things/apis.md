@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-listthingtypes-get.md
-- name: AWS Internet of Things API Describe Thing Type
-  description: Gets information about the specified thing type.
+- name: AWS Internet of Things API List Thing Types
+  description: Lists the existing thing types.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
   baseURL: http:://{host}//
   tags: Types
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-describethingtype-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-listthingtypes-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
