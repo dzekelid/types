@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1-reporttypes-parameters.md
-- name: Youtube Get Reporttypes
-  description: Lists report types.
+- name: Youtube Parameters Reporttypes
+  description: Parameters v1 reporttypes
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Types
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1-reporttypes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1-reporttypes-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1-reporttypes-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1-reporttypes-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
