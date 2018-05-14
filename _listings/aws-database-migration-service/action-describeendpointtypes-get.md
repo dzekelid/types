@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Describe Endpoint Types
   version: 1.0.0
+  description: Returns information about the type of endpoints available.
 schemes:
 - http
 produces:
