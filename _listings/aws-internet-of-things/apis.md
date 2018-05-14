@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-listthingtypes-get.md
-- name: AWS Internet of Things API Create Thing Type
-  description: Creates a new thing type.
+- name: AWS Internet of Things API Delete Thing Type
+  description: Deletes the specified thing type.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
   baseURL: http:://{host}//
   tags: Types
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-createthingtype-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-deletethingtype-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
