@@ -36,17 +36,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-types-get.md
-- name: Azure Data Lake Analytics API Catalog List Table Types
-  description: Retrieves the list of table types from the Data Lake Analytics catalog.
+- name: Azure Data Lake Analytics API Catalog List Types
+  description: Retrieves the list of types within the specified database and schema
+    from the Data Lake Analytics catalog.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
   humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
   baseURL: http:://{host}//
   tags: Types
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-tabletypes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-types-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-tabletypes-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-types-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
