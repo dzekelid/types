@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API List Available Node Types
   version: 1.0.0
+  description: .
 schemes:
 - http
 produces:
