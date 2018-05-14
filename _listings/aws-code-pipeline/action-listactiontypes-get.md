@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Code Pipeline API
+  title: AWS Code Pipeline API List Action Types
   version: 1.0.0
+  description: |-
+    Gets a summary of all AWS CodePipeline action types associated with your
+                account.
 schemes:
 - http
 produces:
