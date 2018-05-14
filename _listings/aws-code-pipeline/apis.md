@@ -37,7 +37,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-code-pipeline/action-listactiontypes-get.md
+- name: AWS Code Pipeline API List Action Types
+  description: |-
+    Gets a summary of all AWS CodePipeline action types associated with your
+                account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: http:://{host}//
+  tags: Types
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-code-pipeline/action-listactiontypes-get.md
 x-common:
+- type: x-blog
+  url: http://blogs.aws.amazon.com/bigdata
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/AWS-Data-Pipeline/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/datapipeline/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/datapipeline/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=151
+- type: x-pricing
+  url: https://aws.amazon.com/datapipeline/pricing/
+- type: x-tools
+  url: http://aws.amazon.com/developertools/AWS-Data-Pipeline/
+- type: x-website
+  url: https://aws.amazon.com/datapipeline/
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
 - type: x-change-log
