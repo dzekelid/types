@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Internet of Things API
+  title: AWS Internet of Things API Deprecate Thing Type
   version: 1.0.0
+  description: Deprecates a thing type.
 schemes:
 - http
 produces:
