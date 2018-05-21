@@ -1,11 +1,12 @@
 ---
 name: AWS Internet of Things
+x-slug: aws-internet-of-things
 description: AWS IoT is a managed cloud platform that lets connected devices easily
   and securely interact with cloud applications and other devices. AWS IoT can support
   billions of devices and trillions of messages, and can process and route those messages
   to AWS endpoints and to other devices reliably and securely. With AWS IoT, your
   applications can keep track of and communicate with all your devices, all the time,
-  even when they arenrsquo;t connected.nAWS IoT makes it easy to use AWS services
+  even when they aren&rsquo;t connected.AWS IoT makes it easy to use AWS services
   like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon Machine Learning, Amazon DynamoDB,
   Amazon CloudWatch, AWS CloudTrail, and Amazon Elasticsearch Service with built-in
   Kibana integration, to build IoT applications that gather, process, analyze and
@@ -13,66 +14,83 @@ description: AWS IoT is a managed cloud platform that lets connected devices eas
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
 x-kinRank: "10"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Internet of Things
-- Devices
-- Amazon Web Services
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/apis.yaml
+tags: Types
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Internet of Things API
-  description: AWS IoT is a managed cloud platform that lets connected devices easily
-    and securely interact with cloud applications and other devices
+- name: AWS Internet of Things API Create Thing Type
+  x-api-slug: aws-internet-of-things-api
+  description: Creates a new thing type.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: ""
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: ://///?Action=CreateThingType
+  tags: Thing Types
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/actioncreatethingtype-get-openapi.md
+- name: AWS Internet of Things API Delete Thing Type
+  x-api-slug: aws-internet-of-things-api
+  description: Deletes the specified thing type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: ://///?Action=DeleteThingType
+  tags: Thing Types
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/actiondeletethingtype-get-openapi.md
+- name: AWS Internet of Things API Deprecate Thing Type
+  x-api-slug: aws-internet-of-things-api
+  description: Deprecates a thing type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: ://///?Action=DeprecateThingType
+  tags: Thing Types
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/actiondeprecatethingtype-get-openapi.md
+- name: AWS Internet of Things API Describe Thing Type
+  x-api-slug: aws-internet-of-things-api
+  description: Gets information about the specified thing type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: ://///?Action=DescribeThingType
+  tags: Thing Types
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/actiondescribethingtype-get-openapi.md
+- name: AWS Internet of Things API List Thing Types
+  x-api-slug: aws-internet-of-things-api
+  description: Lists the existing thing types.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: ://///?Action=ListThingTypes
+  tags: Thing Types
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/actionlistthingtypes-get-openapi.md
+- name: AWS Internet of Things API
+  x-api-slug: aws-internet-of-things-api
+  description: AWS IoT is a managed cloud platform that lets connected devices easily
+    and securely interact with cloud applications and other devices. AWS IoT can support
+    billions of devices and trillions of messages, and can process and route those
+    messages to AWS endpoints and to other devices reliably and securely. With AWS
+    IoT, your applications can keep track of and communicate with all your devices,
+    all the time, even when they aren&rsquo;t connected.AWS IoT makes it easy to use
+    AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon Machine Learning,
+    Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon Elasticsearch Service
+    with built-in Kibana integration, to build IoT applications that gather, process,
+    analyze and act on data generated by connected devices, without having to manage
+    any infrastructure.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
   baseURL: :///
   tags: Types
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-listthingtypes-get.md
-- name: AWS Internet of Things API List Thing Types
-  description: Lists the existing thing types.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: http:://{host}//
-  tags: Types
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/action-listthingtypes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/aws-internet-of-things/openapi.md
 x-common:
-- type: x-blog
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
-- type: x-command-line-interface
-  url: http://docs.aws.amazon.com/cli/latest/reference/iot/index.html
-- type: x-documentation
-  url: http://docs.aws.amazon.com/iot/latest/apireference/
-- type: x-documentation
-  url: http://docs.aws.amazon.com/iot/latest/developerguide/thing-shadow-rest-api.html
-- type: x-faq
-  url: https://aws.amazon.com/iot-platform/faqs/
-- type: x-getting-started
-  url: https://aws.amazon.com/iot-platform/getting-started/
-- type: x-how-it-works
-  url: https://aws.amazon.com/iot-platform/how-it-works/
-- type: x-partners
-  url: https://aws.amazon.com/iot/partner-solutions/
-- type: x-pricing
-  url: https://aws.amazon.com/iot-platform/pricing/
-- type: x-sdk
-  url: https://aws.amazon.com/iot-platform/developer-resources/#SDKs
-- type: x-slides
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Slides
-- type: x-videos
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Videos
-- type: x-webinars
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Webinars
-- type: x-website
-  url: https://aws.amazon.com/iot-platform/
-- type: x-white-papers
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Whitepapers
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
 - type: x-command-line-interface
