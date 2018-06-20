@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: VictorOps
 x-complete: 0
 info:
-  title: VictorOps Get the available timeout values
+  title: Victor Ops Get the available timeout values
   description: |-
     Get the available timeout values
 
@@ -18,7 +18,7 @@ info:
     description: "If still unacked after 60 minutes", type: 60
 
     This API may be called a maximum of 15 times per minute.
-  version: 1.0.0
+  version: 0.0.2
 host: api.victorops.com
 basePath: /
 schemes:
@@ -47,11 +47,6 @@ paths:
         200:
           description: OK
       tags:
-      - Continuous Deployment
-      - Continuous Integration
-      - Orchestration
-      - Api-public
-      - V1
       - Policies
       - Types
       - Contacts
@@ -76,11 +71,6 @@ paths:
         200:
           description: OK
       tags:
-      - Continuous Deployment
-      - Continuous Integration
-      - Orchestration
-      - Api-public
-      - V1
       - Policies
       - Types
       - Notifications
@@ -110,11 +100,6 @@ paths:
         200:
           description: OK
       tags:
-      - Continuous Deployment
-      - Continuous Integration
-      - Orchestration
-      - Api-public
-      - V1
       - Policies
       - Types
       - Timeouts

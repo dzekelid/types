@@ -1,22 +1,19 @@
 ---
 name: VictorOps
 x-slug: victorops
-description: VictorOps is a hub for centralizing the flow of information throughout
-  the incident lifecycle. Driven by IT and DevOps system data, VictorOps provides
-  a unified platform for real-time alerting, collaboration, and documentation. Using
-  VictorOps, teams resolve incidents faster to help minimize the impact of downtime
-  and speed innovation.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/victorops.jpg
+description: VictorOps incident managament software gives DevOps observability, collaboration,
+  & real-time alerting, to build, deploy, & operate software. Learn more.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "196587"
 tags: Types
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/victorops/apis.md
 specificationVersion: "0.14"
 apis:
-- name: VictorOps Get the available contact types
-  x-api-slug: victorops
+- name: Victor Ops Get the available contact types
+  x-api-slug: victor-ops
   description: |-
     Get the available contact types
 
@@ -24,17 +21,17 @@ apis:
     description: "Phone Number", type: "phone"
 
     This API may be called a maximum of 15 times per minute.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/victorops.jpg
-  humanURL: https://victorops.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
+  humanURL: http://victorops.com
   baseURL: https://api.victorops.com////api-public/v1/policies/types/contacts
-  tags: Continuous Deployment,Continuous Integration,Orchestration,Api-public,V1,Policies,Types,Contacts
+  tags: Policies,Types,Contacts
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/victorops/apipublicv1policiestypescontacts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/victorops/apipublicv1policiestypescontacts-get-openapi.md
-- name: VictorOps Get the available notification types
-  x-api-slug: victorops
+- name: Victor Ops Get the available notification types
+  x-api-slug: victor-ops
   description: |-
     Get the available notification types
 
@@ -44,17 +41,17 @@ apis:
     description: "Make a phone call to a phone number", type: "phone"
 
     This API may be called a maximum of 15 times per minute.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/victorops.jpg
-  humanURL: https://victorops.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
+  humanURL: http://victorops.com
   baseURL: https://api.victorops.com////api-public/v1/policies/types/notifications
-  tags: Continuous Deployment,Continuous Integration,Orchestration,Api-public,V1,Policies,Types,Notifications
+  tags: Policies,Types,Notifications
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/victorops/apipublicv1policiestypesnotifications-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/victorops/apipublicv1policiestypesnotifications-get-openapi.md
-- name: VictorOps Get the available timeout values
-  x-api-slug: victorops
+- name: Victor Ops Get the available timeout values
+  x-api-slug: victor-ops
   description: |-
     Get the available timeout values
 
@@ -69,24 +66,22 @@ apis:
     description: "If still unacked after 60 minutes", type: 60
 
     This API may be called a maximum of 15 times per minute.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/victorops.jpg
-  humanURL: https://victorops.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
+  humanURL: http://victorops.com
   baseURL: https://api.victorops.com////api-public/v1/policies/types/timeouts
-  tags: Continuous Deployment,Continuous Integration,Orchestration,Api-public,V1,Policies,Types,Timeouts
+  tags: Policies,Types,Timeouts
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/victorops/apipublicv1policiestypestimeouts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/victorops/apipublicv1policiestypestimeouts-get-openapi.md
-- name: VictorOps
-  x-api-slug: victorops
-  description: VictorOps is a hub for centralizing the flow of information throughout
-    the incident lifecycle. Driven by IT and DevOps system data, VictorOps provides
-    a unified platform for real-time alerting, collaboration, and documentation. Using
-    VictorOps, teams resolve incidents faster to help minimize the impact of downtime
-    and speed innovation.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/victorops.jpg
-  humanURL: https://victorops.com
+- name: Victor Ops
+  x-api-slug: victor-ops
+  description: VictorOps incident managament software gives DevOps observability,
+    collaboration, & real-time alerting, to build, deploy, & operate software. Learn
+    more.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
+  humanURL: http://victorops.com
   baseURL: https://api.victorops.com//
   tags: Types
   properties:
@@ -97,12 +92,24 @@ x-common:
   url: https://victorops.com/blog/
 - type: x-blog-rss
   url: https://victorops.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/victorops
+- type: x-email
+  url: support@victorops.com
+- type: x-email
+  url: info@victorops.com
+- type: x-email
+  url: press@victorops.com
+- type: x-email
+  url: sales@victorops.com
 - type: x-github
   url: https://github.com/victorops
 - type: x-pricing
   url: https://victorops.com/pricing/
 - type: x-twitter
   url: https://twitter.com/VictorOps
+- type: x-website
+  url: http://victorops.com
 - type: x-website
   url: https://victorops.com
 include: []

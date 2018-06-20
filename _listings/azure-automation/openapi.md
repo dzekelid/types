@@ -20,7 +20,7 @@ paths:
       description: Retrieve a list of fields of a given type identified by module
         name.
       operationId: ObjectDataTypes_ListFieldsByModuleAndType
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftautomationautomationaccountsautomationaccountnamemodulesmodulenameobjectdatatypestypenamefields-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamemodulesmodulenameobjectdatatypestypenamefields-get
       parameters:
       - in: path
         name: automationAccountName
@@ -48,7 +48,7 @@ paths:
       description: Retrieve a list of fields of a given type across all accessible
         modules.
       operationId: ObjectDataTypes_ListFieldsByType
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftautomationautomationaccountsautomationaccountnameobjectdatatypestypenamefields-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameobjectdatatypestypenamefields-get
       parameters:
       - in: path
         name: automationAccountName

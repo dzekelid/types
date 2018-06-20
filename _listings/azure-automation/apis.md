@@ -7,10 +7,10 @@ description: Automate all of those frequent, time-consuming, and error-prone clo
   costs.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Types
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +23,9 @@ apis:
   tags: Object, Data, Types, List, FieldsModuleType
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftautomationautomationaccountsautomationaccountnamemodulesmodulenameobjectdatatypestypenamefields-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamemodulesmodulenameobjectdatatypestypenamefields-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftautomationautomationaccountsautomationaccountnamemodulesmodulenameobjectdatatypestypenamefields-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamemodulesmodulenameobjectdatatypestypenamefields-get-openapi.md
 - name: Azure Automation API Object Data Types List Fields By Type
   x-api-slug: azure-automation-api
   description: Retrieve a list of fields of a given type across all accessible modules.
@@ -35,9 +35,9 @@ apis:
   tags: Object, Data, Types, List, FieldsType
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftautomationautomationaccountsautomationaccountnameobjectdatatypestypenamefields-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameobjectdatatypestypenamefields-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftautomationautomationaccountsautomationaccountnameobjectdatatypestypenamefields-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameobjectdatatypestypenamefields-get-openapi.md
 - name: Azure Automation API
   x-api-slug: azure-automation-api
   description: Automate all of those frequent, time-consuming, and error-prone cloud

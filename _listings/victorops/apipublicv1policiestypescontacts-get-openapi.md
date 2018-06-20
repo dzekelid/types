@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: VictorOps
 x-complete: 0
 info:
-  title: VictorOps Get the available contact types
+  title: Victor Ops Get the available contact types
   description: |-
     Get the available contact types
 
@@ -11,7 +11,7 @@ info:
     description: "Phone Number", type: "phone"
 
     This API may be called a maximum of 15 times per minute.
-  version: 1.0.0
+  version: 0.0.2
 host: api.victorops.com
 basePath: /
 schemes:
@@ -40,11 +40,6 @@ paths:
         200:
           description: OK
       tags:
-      - Continuous Deployment
-      - Continuous Integration
-      - Orchestration
-      - Api-public
-      - V1
       - Policies
       - Types
       - Contacts

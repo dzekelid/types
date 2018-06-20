@@ -7,10 +7,10 @@ description: YouTube allows billions of people to discover, watch and share orig
   and advertisers large and small.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Types
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,18 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1reporttypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1reporttypes-get-openapi.md
-- name: Youtube Parameters Reporttypes
-  x-api-slug: youtube
-  description: Parameters v1 reporttypes
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/reportTypes
-  tags: V1, Reporttypes
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1reporttypes-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/youtube/v1reporttypes-parameters-openapi.md
 - name: Youtube
   x-api-slug: youtube
   description: YouTube allows billions of people to discover, watch and share originally-created
