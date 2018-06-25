@@ -4,7 +4,7 @@ description: This is a repository of types APIs, self-contained as a Github repo
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/types.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://types.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -42,7 +42,7 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/netlicensing/apis.yaml
 - name: Public Transport Victoria Timetable
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/public-transport-victoria-timetable/apis.yaml
-- name: taxamo
+- name: Taxamo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apis.yaml
 - name: VictorOps
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/victorops/apis.yaml
