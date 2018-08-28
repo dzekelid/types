@@ -27,6 +27,26 @@ paths:
       tags:
       - Product
       - Types
+  /api/v1/stats/settlement/by_taxation_type:
+    get:
+      summary: Settlement By Tax Type
+      description: Settlement by tax type.
+      operationId: getSettlementStatsByTaxationType
+      x-api-path-slug: apiv1statssettlementby-taxation-type-get
+      parameters:
+      - in: query
+        name: date_from
+        description: Date from in yyyy-MM format
+      - in: query
+        name: date_to
+        description: Date to in yyyy-MM format
+      responses:
+        200:
+          description: OK
+      tags:
+      - Settlement
+      - Tax
+      - Type
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

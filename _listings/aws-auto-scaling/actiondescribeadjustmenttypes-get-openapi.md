@@ -29,6 +29,92 @@ paths:
           description: OK
       tags:
       - Adjustment Types
+  /?Action=DescribeAutoScalingNotificationTypes:
+    get:
+      summary: Describe Auto Scaling Notification Types
+      description: Describes the notification types that are supported by Auto Scaling.
+      operationId: describeAutoScalingNotificationTypes
+      x-api-path-slug: actiondescribeautoscalingnotificationtypes-get
+      parameters:
+      - in: query
+        name: AutoScalingNotificationTypes.member.N
+        description: The notification types
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Auto Scaling Notifications
+  /?Action=DescribeLifecycleHookTypes:
+    get:
+      summary: Describe Lifecycle Hook Types
+      description: Describes the available types of lifecycle hooks.
+      operationId: describeLifecycleHookTypes
+      x-api-path-slug: actiondescribelifecyclehooktypes-get
+      parameters:
+      - in: query
+        name: LifecycleHookTypes.member.N
+        description: The lifecycle hook types
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Life Cycle
+  /?Action=DescribeMetricCollectionTypes:
+    get:
+      summary: Describe Metric Collection Types
+      description: Describes the available CloudWatch metrics for Auto Scaling.
+      operationId: describeMetricCollectionTypes
+      x-api-path-slug: actiondescribemetriccollectiontypes-get
+      parameters:
+      - in: query
+        name: Granularities.member.N
+        description: The granularities for the metrics
+        type: string
+      - in: query
+        name: Metrics.member.N
+        description: One or more metrics
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Metric Collection
+  /?Action=DescribeScalingProcessTypes:
+    get:
+      summary: Describe Scaling Process Types
+      description: Describes the scaling process types for use with.
+      operationId: describeScalingProcessTypes
+      x-api-path-slug: actiondescribescalingprocesstypes-get
+      parameters:
+      - in: query
+        name: Processes.member.N
+        description: The names of the process types
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Scaling Process
+  /?Action=DescribeTerminationPolicyTypes:
+    get:
+      summary: Describe Termination Policy Types
+      description: Describes the termination policies supported by Auto Scaling.
+      operationId: describeTerminationPolicyTypes
+      x-api-path-slug: actiondescribeterminationpolicytypes-get
+      parameters:
+      - in: query
+        name: TerminationPolicyTypes.member.N
+        description: The termination policies supported by Auto Scaling (OldestInstance,
+          OldestLaunchConfiguration,             NewestInstance, ClosestToNextInstanceHour,
+          and Default)
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Termination Policies
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

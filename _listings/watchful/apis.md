@@ -8,34 +8,26 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Types
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/watchful/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Watchful Get The List Of Log Types
-  x-api-slug: watchful
+- name: Watchful - Get The List Of Log Types
+  x-api-slug: logstypes-get
   description: Returns a list of log types
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
   humanURL: http://watchful.li
-  baseURL: https://watchful.li//api/v1//logs/types
-  tags: Logs,Types
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/watchful/logstypes-get-openapi.md
-- name: Watchful
-  x-api-slug: watchful
-  description: Watchful resulted from the need for a single, unified dashboard to
-    easily monitor all of the web sites in our portfolios. After years of evolution,
-    our solution has matured into a simple, complete and professional service.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
-  humanURL: http://watchful.li
-  baseURL: https://watchful.li//api/v1
-  tags: Types
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/watchful/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://washington.metropolitan.area.transit.authority.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://watchful.stack.network
 - type: x-application-gallery
   url: https://watchful.li/apps/
 - type: x-blog

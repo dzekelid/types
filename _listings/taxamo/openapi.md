@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Taxamo
 x-complete: 1
@@ -27,4 +26,23 @@ paths:
       tags:
       - Product
       - Types
----
+  /api/v1/stats/settlement/by_taxation_type:
+    get:
+      summary: Settlement By Tax Type
+      description: Settlement by tax type.
+      operationId: getSettlementStatsByTaxationType
+      x-api-path-slug: apiv1statssettlementby-taxation-type-get
+      parameters:
+      - in: query
+        name: date_from
+        description: Date from in yyyy-MM format
+      - in: query
+        name: date_to
+        description: Date to in yyyy-MM format
+      responses:
+        200:
+          description: OK
+      tags:
+      - Settlement
+      - Tax
+      - Type

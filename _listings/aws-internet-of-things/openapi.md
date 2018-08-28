@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Internet of Things
 x-complete: 1
@@ -12,6 +11,31 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=ListThingTypes:
+    get:
+      summary: List Thing Types
+      description: Lists the existing thing types.
+      operationId: listThingTypes
+      x-api-path-slug: actionlistthingtypes-get
+      parameters:
+      - in: query
+        name: maxResults
+        description: The maximum number of results to return in this operation
+        type: string
+      - in: query
+        name: nextToken
+        description: The token for the next set of results, or null if there are no
+          additional results
+        type: string
+      - in: query
+        name: thingTypeName
+        description: The name of the thing type
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Thing Types
   /?Action=CreateThingType:
     get:
       summary: Create Thing Type
@@ -84,29 +108,3 @@ paths:
           description: OK
       tags:
       - Thing Types
-  /?Action=ListThingTypes:
-    get:
-      summary: List Thing Types
-      description: Lists the existing thing types.
-      operationId: listThingTypes
-      x-api-path-slug: actionlistthingtypes-get
-      parameters:
-      - in: query
-        name: maxResults
-        description: The maximum number of results to return in this operation
-        type: string
-      - in: query
-        name: nextToken
-        description: The token for the next set of results, or null if there are no
-          additional results
-        type: string
-      - in: query
-        name: thingTypeName
-        description: The name of the thing type
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Thing Types
----

@@ -4,9 +4,9 @@ x-collection-name: Standard Chartered
 x-complete: 0
 info:
   title: Standard Chartered Finds all support transaction types for a given account
-  description: "The \u201CGetTransactionTypes\u201D API upon successful user authentication
+  description: The ???GetTransactionTypes??? API upon successful user authentication
     and entitlement checks will return the supported transaction types for the specified
-    account"
+    account
   termsOfService: https://www.sc.com/terms-and-conditions
   contact:
     name: Steve Spicer
@@ -25,9 +25,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/accounts/{accountId}/{viewId}/transaction-request-types:
     get:
       summary: Finds all support transaction types for a given account
-      description: "The \u201CGetTransactionTypes\u201D API upon successful user authentication
+      description: The ???GetTransactionTypes??? API upon successful user authentication
         and entitlement checks will return the supported transaction types for the
-        specified account"
+        specified account
       operationId: getCibServiceS2bApiV1BanksScbAccountsAccountViewTransactionRequestTypes
       x-api-path-slug: cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get
       parameters:
@@ -43,6 +43,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b

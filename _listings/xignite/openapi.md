@@ -1,13 +1,12 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
 info:
-  title: Xignite Bonds
-  description: xignitebonds-service-provides-fourhour-delayed-price-data-for-us-corporate-and-agency-debt-bonds-including-debt-securities-issued-by-governmentsponsored-enterprises-gse--price-data-includes-last-sale-yield-daily-and-yearly-open-high-low-close-trade-price-data-
+  title: Xignite VWAP
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   version: 1.0.0
-host: bonds.xignite.com
-basePath: xBonds.json/XigniteBonds
+host: www.xignite.com
+basePath: xVWAP.json/XigniteVWAP
 schemes:
 - http
 produces:
@@ -34,4 +33,3 @@ paths:
       - List
       - Bond
       - Types
----

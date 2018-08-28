@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Automation
 x-complete: 1
@@ -67,4 +66,93 @@ paths:
       - Types
       - List
       - FieldsType
----
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/connectionTypes/{connectionTypeName}
+  : delete:
+      summary: Connection Type Delete
+      description: Delete the connectiontype.
+      operationId: ConnectionType_Delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconnectiontypesconnectiontypename-delete
+      parameters:
+      - in: path
+        name: automationAccountName
+        description: The automation account name
+      - in: path
+        name: connectionTypeName
+        description: The name of connectiontype
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Connection
+      - Type
+    get:
+      summary: Connection Type Get
+      description: Retrieve the connectiontype identified by connectiontype name.
+      operationId: ConnectionType_Get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconnectiontypesconnectiontypename-get
+      parameters:
+      - in: path
+        name: automationAccountName
+        description: The automation account name
+      - in: path
+        name: connectionTypeName
+        description: The name of connectiontype
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Connection
+      - Type
+    put:
+      summary: Connection Type Create Or Update
+      description: Create a connectiontype.
+      operationId: ConnectionType_CreateOrUpdate
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconnectiontypesconnectiontypename-put
+      parameters:
+      - in: path
+        name: automationAccountName
+        description: The automation account name
+      - in: path
+        name: connectionTypeName
+        description: The parameters supplied to the create or update connectiontype
+          operation
+      - in: query
+        name: No Name
+      - in: body
+        name: parameters
+        description: The parameters supplied to the create or update connectiontype
+          operation
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Connection
+      - Type
+      - Or
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/connectionTypes
+  : get:
+      summary: Connection Type List By Automation Account
+      description: Retrieve a list of connectiontypes.
+      operationId: ConnectionType_ListByAutomationAccount
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconnectiontypes-get
+      parameters:
+      - in: path
+        name: automationAccountName
+        description: The automation account name
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Connection
+      - Type
+      - List
+      - Automation
+      - Account

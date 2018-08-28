@@ -7,37 +7,83 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxa
 x-kinRank: "8"
 x-alexaRank: "795977"
 tags: Types
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Taxamo Product Types
-  x-api-slug: taxamo
+- name: Taxamo - Product Types
+  x-api-slug: apiv1dictionariesproduct-types-get
   description: Product types.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
   humanURL: https://www.taxamo.com/
-  baseURL: https://api.taxamo.com////api/v1/dictionaries/product_types
-  tags: Product,Types
+  baseURL: https://api.taxamo.com//
+  tags: Taxes, VAT, Target, Stack Network, Taxes, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1dictionariesproduct-types-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1dictionariesproduct-types-get-openapi.md
-- name: Taxamo
-  x-api-slug: taxamo
-  description: 'We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax
-    #TaxTrends'
+- name: Taxamo - Settlement By Tax Type
+  x-api-slug: apiv1statssettlementby-taxation-type-get
+  description: Settlement by tax type.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
   humanURL: https://www.taxamo.com/
   baseURL: https://api.taxamo.com//
-  tags: Types
+  tags: Taxes, VAT, Target, Stack Network, Taxes, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1statssettlementby-taxation-type-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1statssettlementby-taxation-type-get-openapi.md
+- name: Taxamo - Product Types
+  x-api-slug: apiv1dictionariesproduct-types-get
+  description: Product types.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
+  humanURL: https://www.taxamo.com/
+  baseURL: https://api.taxamo.com//
+  tags: Taxes, VAT, Target, Stack Network, Taxes, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1dictionariesproduct-types-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1dictionariesproduct-types-get-openapi.md
+- name: Taxamo - Settlement By Tax Type
+  x-api-slug: apiv1statssettlementby-taxation-type-get
+  description: Settlement by tax type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
+  humanURL: https://www.taxamo.com/
+  baseURL: https://api.taxamo.com//
+  tags: Taxes, VAT, Target, Stack Network, Taxes, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1statssettlementby-taxation-type-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1statssettlementby-taxation-type-get-openapi.md
+- name: Taxamo - Settlement By Tax Type
+  x-api-slug: apiv1statssettlementby-taxation-type-get
+  description: Settlement by tax type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
+  humanURL: https://www.taxamo.com/
+  baseURL: https://api.taxamo.com//
+  tags: Taxes, VAT, Target, Stack Network, Taxes, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1statssettlementby-taxation-type-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/types/master/_listings/taxamo/apiv1statssettlementby-taxation-type-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.taxamo.com/
+- type: x-api-gallery
+  url: http://system.award.management.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://taxamo.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/taxamo-eu-vat-compliance
 - type: x-documentation
